@@ -21,13 +21,13 @@ sudo apt install tmux
 Begin by cloning this repository to your preferred location on your local machine:
 
 ```bash
-git clone https://github.com/bhavnicksm/tmux.git ~/bhavnicksm-tmux
+git clone https://github.com/bhavnicksm/tmux.git ./bhavnicksm-tmux
 ```
 
 2. Create a Symbolic Link:
 To use this configuration as the default for Tmux, link the .tmux.conf file from the cloned repository to your home directory:
 ```bash 
-ln -sf ~/bhavnicksm-tmux/.tmux.conf ~/.tmux.conf
+ln -sf ./bhavnicksm-tmux/.tmux.conf ~/.tmux.conf
 ```
 
 ## 🔄 Updating
@@ -37,11 +37,8 @@ Stay updated with the latest improvements by pulling changes from the repository
 git -C ~/bhavnicksm-tmux pull
 ```
 
-## 🤝 Contributing
-Your contributions are welcome! If you have suggestions for improvements or new features, please fork the repository, make your changes, and submit a pull request.
-
-## 📜 License
-This Tmux configuration is open-sourced under the MIT License. See the LICENSE file for more details.
+## 🤝 Customization
+Customize your own TMUX by doing a 🍴 fork 🍴 of this repository and editing the `.tmux.config` file -- change your themes, key-maps and more! ( Just don't forget to give me source credits 😉 )
 
 ## ✨ Conclusion
 Thank you for exploring my Tmux configuration. I hope it enhances your productivity and brings a new level of organization and aesthetic pleasure to your terminal endeavors!
