@@ -37,6 +37,11 @@ Stay updated with the latest improvements by pulling changes from the repository
 git -C ~/bhavnicksm-tmux pull
 ```
 
+
+## Plugins
+
+## Key-maps
+
 ## 🤝 Customization
 Customize your own TMUX by doing a 🍴 fork 🍴 of this repository and editing the `.tmux.config` file -- change your themes, key-maps and more! ( Just don't forget to give me source credits 😉 )
 
